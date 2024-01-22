@@ -1,0 +1,69 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_container{
+    height: 99.5vh;
+    overflow: hidden;
+}
+
+nav{
+    background-color: rgb(41, 41, 41);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    padding: 0.6rem 1.5rem;
+}
+nav a:hover{
+    color: blue;
+    background-color: rgba(144, 144, 247, 0.774);
+}
+
+.container{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.change_color_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.button{
+    border: 2px solid black;
+    padding: 3rem;
+    cursor: pointer;
+}
+
+#yellow{
+    background-color: yellow;
+}
+#blue{
+    background-color: blue;
+    color: white;
+}
+#white{
+    background-color: white;
+}
+#gray{
+    background-color: gray;
+}
+#purple{
+    background-color: purple;
+}
